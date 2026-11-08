@@ -1,18 +1,18 @@
 {
   "presets": [
     {
-      "id": "coral",
-      "name": "Coral",
       "type": "solid",
-      "colors": [
-        "#FF6B6B",
-        "#FFE0E0"
-      ]
+      "color": "#FF6B6B",
+      "bestUsedFor": "Primary buttons, alerts, and warm accents"
     },
     {
-      "id": "sunset",
-      "name": "Sunset Gradient",
+      "type": "solid",
+      "color": "#60A5FA",
+      "bestUsedFor": "Links, navigation highlights, and selection states"
+    },
+    {
       "type": "gradient",
+      "bestUsedFor": "Hero backgrounds, promotional banners, and decorative accents",
       "gradient": {
         "type": "linear",
         "angle": 90,
@@ -33,9 +33,8 @@
       }
     },
     {
-      "id": "ocean",
-      "name": "Ocean Glow",
       "type": "gradient",
+      "bestUsedFor": "Glowing accents, futuristic cards, and ambient backgrounds",
       "gradient": {
         "type": "radial",
         "stops": [
